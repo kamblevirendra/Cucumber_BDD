@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 				plugin = {"pretty", "html:target/cucumber-reports.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}	
 		)
 
-public class CucumberTestRunner {
+public class CucumberTestRunnerTest {
 	
 
 

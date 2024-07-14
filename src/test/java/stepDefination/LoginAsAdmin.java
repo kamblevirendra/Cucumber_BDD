@@ -35,7 +35,7 @@ public class LoginAsAdmin {
 	public void user_should_able_to_login() 
 	{
 		
-	 Assert.assertTrue((BrowserFactory.getDriver().findElement(By.xpath("//span[normalize-space()='Manage1']")).isDisplayed()));
+	 Assert.assertTrue((BrowserFactory.getDriver().findElement(By.xpath("//span[normalize-space()='Manage']")).isDisplayed()));
 	    
 	 
 	  
